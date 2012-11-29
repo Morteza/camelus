@@ -1,0 +1,10 @@
+self: play -> camelus 0.1
+
+require:
+    - play
+
+# Camel
+    - org.apache.camel -> camel-core 2.10.2
+    - org.apache.camel -> components 2.10.2
+    - org.apache.camel -> camel-context 2.10.2
+    - org.apache.camel -> camel-jpa 2.10.2
